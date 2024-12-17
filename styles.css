@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+
+
+}
+
+header {
+    margin-top: 47px;
+    margin-left: 42px;
+}
+
+.link-menu {
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.875px;
+    color: #17233D;
+    margin-right: 32px;
+    cursor: pointer;
+}
+
+.button-sign-up {
+
+    background: #6FBF44;
+    border: 5px solid #4CB538;
+    border-radius: 6px;
+    width: 124px;
+    height: 51px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+img {
+    margin: 163px 0 0 123px;
+    display: inline-block;
+
+}
+
+div {
+    display: inline-block;
+    margin-left: 85px;
+    width: 493px;
+
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+    color: #161A49;
+}
+
+p {
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    margin-top: 47px;
+    margin-bottom: 55px;
+
+}
+
+.button-learn-more {
+    font-weight: 500px;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    background: transparent;
+    cursor: pointer;
+    border: none;
+
+}
+
+@media screen and (max-width: 1300px) {
+
+    .link-menu {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+        letter-spacing: 0.875px;
+        color: #17233D;
+        margin-right: 32px;
+        cursor: pointer;
+        display: none;
+    }
+
+    h1 {
+        margin-top: -228px;
+        margin-bottom: -407px;
+        font-weight: 700;
+        font-size: 47px;
+        line-height: 68px;
+        letter-spacing: -0.403846px;
+        color: #161A49;
+        position: absolute;
+        text-align: center;
+        width: 380px;
+
+
+    }
+
+    p {
+        font-weight: 400px;
+        font-size: 19px;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+        color: #4B505A;
+        margin-top: 47px;
+        margin-bottom: 55px;
+        text-align: start;
+
+
+    }
+
+    .button-sign-up {
+        background: #6FBF44;
+        border: 5px solid #4CB538;
+        border-radius: 6px;
+        width: 124px;
+        height: 51px;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+        margin: -31px 0px -578px 394px;
+    }
+
+    img {
+        margin: 533px 35px -700px 10px;
+        display: flex;
+        width: 540px;
+        height: 465px;
+    }
+
+    .button-learn-more {
+        font-weight: 500px;
+        font-size: 18px;
+        line-height: 1025px;
+        letter-spacing: 7px;
+        color: #6FBF44;
+        background: transparent;
+        cursor: pointer;
+        border: none;
+        margin: 33px 0 -391px 109px;
+    }
+}
